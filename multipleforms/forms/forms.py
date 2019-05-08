@@ -22,3 +22,6 @@ class SuggestionForm(forms.Form):
 class GlobalMessageForm(forms.Form):
     staff_only = True
     global_message = forms.CharField(max_length=200, widget=forms.TextInput)
+
+class MessageForm(forms.Form):
+    message = forms.CharField(max_length=200, widget=forms.Textarea)
