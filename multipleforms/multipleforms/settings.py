@@ -125,11 +125,10 @@ STATIC_URL = '/static/'
 
 EMAIL_HOST = 'smtp.gmail.com'
 
-EMAIL_HOST_USER = 'pruebra.monoku@gmail.com'
+EMAIL_HOST_USER = 'XXXXXX'
 
-EMAIL_HOST_PASSWORD = 'pwzdlatnlfeuprha'
-
+EMAIL_HOST_PASSWORD = 'XXXXXX'
 
 EMAIL_USE_TLS = True
 
-EMAIL_PORT = 587 
+EMAIL_PORT = 587
